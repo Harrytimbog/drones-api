@@ -1,5 +1,8 @@
 # Drones-API
-An api built with RUby on rails. Holds informations about my cronies with a web page integrated to display some of these details on the front end 
+An api built with Ruby on rails. Holds informations about drones
+
+[Run demo](https://drones-api.herokuapp.com/api/v1/drones)
+
 
 ## API Documentation     
 
@@ -49,3 +52,6 @@ Open [http://localhost:3000/api/v1/drones](http://localhost:3000/api/v1/drones) 
 Arigbede Timilehin Emmanuel - @Harrytimbog - harriemannie@gmail.com
 
 Project Link: git@github.com:Harrytimbog/drones-api.git
+
+Demo Link: https://drones-api.herokuapp.com/api/v1/drones
+

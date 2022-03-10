@@ -5,9 +5,11 @@ class Api::V1::DronesController < Api::V1::BaseController
 
   def index
     @drones = policy_scope(Drone)
+    render json: @drones
   end
 
   def show
+    render json: @drone
   end
 
   def create
@@ -43,7 +45,7 @@ class Api::V1::DronesController < Api::V1::BaseController
   end
 
   def drone_params
-    params.require(:drone).permit(:model, :brand)
+    params.require(:drone).permit(:model, :brand, :photo)
   end
 
   def render_error
